@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imgshoe3"
+        android:layout_width="392dp"
+        android:layout_height="183dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shoe3" />
+
+    <TextView
+        android:id="@+id/tvshoe3"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="184dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgshoe3"
+        tools:text="Nice shoe 3" />
+
+    <Button
+        android:id="@+id/btnprevious"
+        android:layout_width="131dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="216dp"
+        android:text="Previous"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvshoe3" />
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="120dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvshoe3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
